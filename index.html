@@ -1,0 +1,82 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, shrink-to-fit=no" />
+        <title>Product Page</title>
+        
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700&display=swap" rel="stylesheet">
+        <link href="./src/style/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="product">
+                <div class="product-image animate__animated animate__fadeInUp">
+                    <h1 class="product-brand-background">Nike</h1>
+                    <img class="product-brand"src="./src/img/brand/nike.png">
+                    <img class="product-pic" src="">
+                </div>
+                <div class="product-info">
+                    <div class="product-route animate__animated animate__fadeInDown">
+                        <span>Shoes</span> > <span>Basketball</span> > <span>Nike</span>
+                    </div>
+                    <div class="product-top">
+                        <h1 class="product-name animate__animated animate__fadeInDown">Nike Zoom KD 12</h1>
+                        <h3 class="product-color-name animate__animated animate__fadeInLeft"></h3>
+                        <div class="product-rate-price animate__animated animate__fadeInRight">
+                            <div class="product-rate">
+                                <span class="active">★</span>
+                                <span class="active">★</span>
+                                <span class="active">★</span>
+                                <span class="active">★</span>
+                                <span class="">★</span>
+                                <span>(27)</span>
+                            </div>
+                            <div class="product-price">
+                                <span class="price-before">130€</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-description animate__animated animate__fadeIn">
+                        <h4>Description</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nulla blanditiis consequatur illum facere ad architecto in voluptatibus possimus sunt unde sint, consectetur asperiores dolore aperiam alias amet sequi expedita.</p>
+                    </div>
+                    <div class="product-control">
+                        <div class="product-color animate__animated animate__fadeInLeft">
+                            <h4>Choose color</h4>
+                            <ul>
+                            </ul>
+                        </div>
+                        <div class="product-size animate__animated animate__fadeInRight">
+                            <h4>Choose size</h4>
+                            <ul>
+                                <li onclick="selectSize(this)">
+                                    <span class="size">41</span>
+                                </li>
+                                <li onclick="selectSize(this)">
+                                    <span class="size">42</span>
+                                </li>
+                                <li onclick="selectSize(this)">
+                                    <span class="size">43</span>
+                                </li>
+                                <li onclick="selectSize(this)">
+                                    <span class="size active">44</span>
+                                </li>
+                                <li onclick="selectSize(this)">
+                                    <span class="size">45</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product-cart animate__animated animate__fadeInUp">
+                        <button class="cart"><i class="fas fa-shopping-cart"></i> Add to cart</button>
+                        <button class="fav" onclick="fav(this)"><i class="far fa-heart"></i> Add to wishlist</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./src/script/script.js"></script>
+    </body>
+</html>
